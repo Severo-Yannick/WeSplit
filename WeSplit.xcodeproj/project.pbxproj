@@ -19,6 +19,8 @@
 		21D5F6F52B9EE46500165291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21D5F6F72B9EE46600165291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21D5F6FA2B9EE46600165291 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21F19A062BAF1E1200448A3C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		21F19A082BAF20B300448A3C /* SimulatorScreen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimulatorScreen.mp4; path = ../../../../../Desktop/SimulatorScreen.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,8 @@
 				21D5F6F52B9EE46500165291 /* ContentView.swift */,
 				21D5F6F72B9EE46600165291 /* Assets.xcassets */,
 				21D5F6F92B9EE46600165291 /* Preview Content */,
+				21F19A062BAF1E1200448A3C /* README.md */,
+				21F19A082BAF20B300448A3C /* SimulatorScreen.mp4 */,
 			);
 			path = WeSplit;
 			sourceTree = "<group>";
