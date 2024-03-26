@@ -14,12 +14,15 @@ struct ContentView: View {
     @FocusState private var amountIsFocused: Bool
     let tipePercentages = [10, 15, 20, 25, 0]
     
-    var totalPerPerson: Double {
-        let peopleCount = Double(numberOfPeople + 2)
+    var grandTotal: Double {
         let typeSelection = Double(tipePercentage)
-        
         let typeValue = amount / 100 * typeSelection
         let grandTotal = amount + typeValue
+        return grandTotal
+    }
+    
+    var totalPerPerson: Double {
+        let peopleCount = Double(numberOfPeople + 2)
         let amountPerPerson = grandTotal / peopleCount
         return amountPerPerson
     }
@@ -44,8 +47,11 @@ struct ContentView: View {
                         }
                     }.pickerStyle(.segmented)
                 }
-                Section{
+                Section(header: Text("Amount Per Person")){
                     Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "EUR"))
+                }
+                Section(header: Text("Total Amount")) {
+                    Text(grandTotal, format: .currency(code: Locale.current.currency?.identifier ?? "EUR"))
                 }
             }
             .navigationTitle("WeSplit").opacity(0.8)

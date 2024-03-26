@@ -14,8 +14,6 @@ WeSplit is a iOS app designed to streamline bill splitting among groups, simplif
 
 ## Screenshot
 
-![Screenshot](/SimulatorScreen.mp4)
-
 ## Getting Started
 
 To get started with WeSplit, follow these simple steps:
